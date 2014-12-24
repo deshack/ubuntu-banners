@@ -50,10 +50,18 @@ class Ubuntu_Banners {
 	/**
 	 * The path to the views.
 	 *
-	 *
 	 * @since  1.0.0
 	 * @access public
 	 * @var string
 	 */
 	const VIEWS = plugin_dir_path( __FILE__ ) . 'views/';
+
+	/**
+	 * Path to the images directory.
+	 *
+	 * @since  1.0.0
+	 * @access public
+	 * @var string
+	 */
+	const IMG = plugin_dir_path( __FILE__ ) . 'img/';
 }
