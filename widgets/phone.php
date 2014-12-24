@@ -80,7 +80,7 @@ class Ubuntu_Phone_Countdown extends WP_Widget implements Ubuntu_Banners_Interfa
 
 		ob_start();
 
-		include( Ubuntu_Banners::VIEWS . 'phone.php' );
+		include( Ubuntu_Banners::VIEWS . 'public/phone.php' );
 
 		$widget_string .= ob_get_clean();
 		$widget_string .= $after_widget;
@@ -126,7 +126,7 @@ class Ubuntu_Phone_Countdown extends WP_Widget implements Ubuntu_Banners_Interfa
 		// Store the values of the widget in their own variable.
 		
 		// Display the admin form.
-		include( Ubuntu_Banners::VIEWS . 'phone-admin.php' );
+		include( Ubuntu_Banners::VIEWS . 'admin/phone.php' );
 	}
 
 	/**
